@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monopoly Chicken | Luxury Gourmet</title>
+    <meta name="description"
+        content="Premium, modern, dark-themed responsive restaurant website for a luxury gourmet chicken restaurant named Monopoly Chicken.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="sticky-nav fade-in">
+        <div class="nav-container">
+            <a href="#" class="logo">Monopoly Chicken</a>
+            <div class="nav-links desktop-only">
+                <a href="#about">The Art</a>
+                <a href="#menu">Menu</a>
+                <a href="#special">Chef's Special</a>
+                <a href="#reservation" class="nav-btn">Reserve</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+        <div class="mobile-nav">
+            <a href="#about">The Art</a>
+            <a href="#menu">Menu</a>
+            <a href="#special">Chef's Special</a>
+            <a href="#reservation">Reserve</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-bg"
+            style="background-image: url('https://images.unsplash.com/photo-1598103442097-8b74394b95c6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');">
+        </div>
+        <div class="hero-content fade-in">
+            <h1>Monopoly Chicken</h1>
+            <p class="tagline">"Where Chicken Becomes Art."</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-outline">View Menu</a>
+                <a href="#reservation" class="btn btn-primary">Reserve a Table</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Us Section -->
+    <section class="about section-padding" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image fade-in-left">
+                    <img src="https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80"
+                        alt="Professional chef preparing gourmet chicken">
+                    <div class="image-accent"></div>
+                </div>
+                <div class="about-text fade-in-right">
+                    <h2 class="section-title">The Art of Poultry</h2>
+                    <p>At Monopoly Chicken, we believe that simple ingredients hold the potential for extraordinary
+                        culinary experiences. Our passion lies in crafting premium chicken dishes that elevate
+                        traditional flavors into a form of high art.</p>
+                    <p>Sourced from the finest local farms and prepared with uncompromising dedication, every dish we
+                        serve is a testament to our philosophy: perfection in every bite.</p>
+                    <img class="signature"
+                        src="https://upload.wikimedia.org/wikipedia/commons/4/41/Signature_of_John_Hancock.svg"
+                        alt="Chef Signature"
+                        style="filter: invert(1) brightness(0.6) sepia(1) hue-rotate(-50deg) saturate(3);">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Highlights Section -->
+    <section class="menu section-padding" id="menu">
+        <div class="container">
+            <div class="text-center fade-in">
+                <h2 class="section-title">Menu Highlights</h2>
+                <p class="section-subtitle">A curated selection of our most exquisite offerings.</p>
+            </div>
+
+            <div class="menu-grid">
+                <!-- Dish 1 -->
+                <div class="menu-card fade-in">
+                    <div class="menu-img">
+                        <img src="https://images.unsplash.com/photo-1598103442097-8b74394b95c6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Truffle Roast Chicken">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-header">
+                            <h3>Truffle Roast Chicken</h3>
+                            <span class="price">DA 2500</span>
+                        </div>
+                        <p>Whole roasted organic chicken infused with black truffle butter and fresh herbs.</p>
+                    </div>
+                </div>
+
+                <!-- Dish 2 -->
+                <div class="menu-card fade-in">
+                    <div class="menu-img">
+                        <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Grilled Herb Chicken Breast">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-header">
+                            <h3>Grilled Herb Chicken Breast</h3>
+                            <span class="price">DA 2500</span>
+                        </div>
+                        <p>Char-grilled to perfection, served with asparagus and wild garlic puree.</p>
+                    </div>
+                </div>
+
+                <!-- Dish 3 -->
+                <div class="menu-card fade-in">
+                    <div class="menu-img">
+                        <img src="https://images.unsplash.com/photo-1562967914-608f82629710?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Crispy Monopoly Wings">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-header">
+                            <h3>Crispy Monopoly Wings</h3>
+                            <span class="price">DA 2500</span>
+                        </div>
+                        <p>Signature 24-hour brined wings with a golden crunch and sweet chili glaze.</p>
+                    </div>
+                </div>
+
+                <!-- Dish 4 -->
+                <div class="menu-card fade-in">
+                    <div class="menu-img">
+                        <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Honey Garlic Chicken">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-header">
+                            <h3>Honey Garlic Chicken</h3>
+                            <span class="price">DA 2500</span>
+                        </div>
+                        <p>Tender bites generously coated in a rich, sticky artisanal honey and roasted garlic sauce.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Dish 5 -->
+                <div class="menu-card fade-in">
+                    <div class="menu-img">
+                        <img src="https://images.unsplash.com/photo-1527477396000-e27163b481c2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Smoked BBQ Chicken">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-header">
+                            <h3>Smoked BBQ Chicken</h3>
+                            <span class="price">DA 2500</span>
+                        </div>
+                        <p>Slow-smoked over hickory wood, glazed with our house-crafted bourbon BBQ reduction.</p>
+                    </div>
+                </div>
+
+                <!-- Dish 6 -->
+                <div class="menu-card fade-in">
+                    <div class="menu-img">
+                        <img src="https://images.unsplash.com/photo-1606728035253-49e8a23146de?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Saffron Braised Chicken">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-header">
+                            <h3>Saffron Braised Chicken</h3>
+                            <span class="price">DA 2500</span>
+                        </div>
+                        <p>Slow-cooked with aromatic saffron, dried limes, and caramelized onions.</p>
+                    </div>
+                </div>
+
+                <!-- Dish 7 -->
+                <div class="menu-card fade-in">
+                    <div class="menu-img">
+                        <img src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Lemon Butter Piccata">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-header">
+                            <h3>Lemon Butter Piccata</h3>
+                            <span class="price">DA 2500</span>
+                        </div>
+                        <p>Pan-seared breast with a silky caper and lemon butter reduction.</p>
+                    </div>
+                </div>
+
+                <!-- Dish 8 -->
+                <div class="menu-card fade-in">
+                    <div class="menu-img">
+                        <img src="https://images.unsplash.com/photo-1532550907401-a500c9a57435?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Peri-Peri Flame Grilled Chicken">
+                    </div>
+                    <div class="menu-info">
+                        <div class="menu-header">
+                            <h3>Peri-Peri Flame Grilled Chicken</h3>
+                            <span class="price">DA 2500</span>
+                        </div>
+                        <p>Spicy citrus-marinated half chicken, charred over open flames.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Chef Special Section -->
+    <section class="chef-special section-padding" id="special">
+        <div class="container">
+            <div class="special-card fade-in">
+                <img src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1080&q=80"
+                    alt="Chef's Signature Dish">
+                <div class="special-content">
+                    <span class="badge">Chef's Signature</span>
+                    <h2>The Golden Crown Roast</h2>
+                    <p>An opulent culinary masterpiece. A whole bird crusted with edible 24k gold flakes, infused with
+                        saffron and served upon a bed of wild mushroom risotto. Requires 24-hour advance preparation.
+                    </p>
+                    <p class="price">DA 2500</p>
+                    <a href="#reservation" class="btn btn-primary" style="margin-top: 1rem;">Reserve Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials section-padding">
+        <div class="container">
+            <div class="text-center fade-in">
+                <h2 class="section-title">Guest Experiences</h2>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card fade-in">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"The absolute pinnacle of poultry. I have dined in Michelin-star restaurants across ghardaia, and
+                        Monopoly Chicken easily stands among them."</p>
+                    <h4>— Zoubir T.</h4>
+                </div>
+                <div class="testimonial-card fade-in">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"The Truffle Roast Chicken changed my perspective on what chicken can be. Elegant atmosphere,
+                        impeccable service. A true hidden gem."</p>
+                    <h4>— Zaki V.</h4>
+                </div>
+                <div class="testimonial-card fade-in">
+                    <div class="stars">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <p>"Every detail, from the gold accents in the dining room to the delicate plating of the Smoked BBQ
+                        Chicken, exudes pure luxury."</p>
+                    <h4>— Sophia L.</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section class="reservation section-padding" id="reservation"
+        style="background-image: url('https://images.unsplash.com/photo-1544148103-0773bf10d330?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');">
+        <div class="container reservation-container">
+            <div class="reservation-card fade-in">
+                <div class="reservation-header">
+                    <h2>Reserve Your Table</h2>
+                    <p>Join us for an unforgettable dining experience.</p>
+                </div>
+
+                <form id="reservation-form" class="reservation-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required placeholder="John Doe">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required placeholder="john@example.com">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="+1 (555) 123-4567">
+                        </div>
+                        <div class="form-group">
+                            <label for="guests">Number of Guests</label>
+                            <select id="guests" name="guests" required>
+                                <option value="1">1 Person</option>
+                                <option value="2" selected>2 People</option>
+                                <option value="3">3 People</option>
+                                <option value="4">4 People</option>
+                                <option value="5">5 People</option>
+                                <option value="6">6+ People</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="date">Reservation Date</label>
+                            <input type="date" id="date" name="date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="time">Reservation Time</label>
+                            <select id="time" name="time" required>
+                                <option value="18:00">6:00 PM</option>
+                                <option value="18:30">6:30 PM</option>
+                                <option value="19:00">7:00 PM</option>
+                                <option value="19:30">7:30 PM</option>
+                                <option value="20:00">8:00 PM</option>
+                                <option value="20:30">8:30 PM</option>
+                                <option value="21:00">9:00 PM</option>
+                                <option value="21:30">9:30 PM</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="requests">Special Requests (optional)</label>
+                        <textarea id="requests" name="requests" rows="3"
+                            placeholder="Allergies, anniversaries, special occasions..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn">Confirm Reservation</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-col">
+                <h3 class="logo" style="font-size: 1.5rem;">Monopoly Chicken</h3>
+                <p>Elevating poultry into culinary art in an elegant, modern setting.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> ghardaia</li>
+                    <li><i class="fas fa-phone"></i> +213 654184645</li>
+                    <li><i class="fas fa-envelope"></i> tadjerouna.zoubir@gmail.com </li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Opening Hours</h4>
+                <ul>
+                    <li>Mon - Thu: 5:00 PM - 10:30 PM</li>
+                    <li>Fri - Sat: 5:00 PM - 11:30 PM</li>
+                    <li>Sun: 4:00 PM - 10:00 PM</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/zoubir.tadjerouna/?hl=en" target="_blank"
+                        rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/zoubir.tadjerouna" target="_blank" rel="noopener noreferrer"><i
+                            class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.tiktok.com/@zoubir.tadjerouna07" target="_blank" rel="noopener noreferrer"><i
+                            class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Monopoly Chicken. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
